@@ -1722,8 +1722,8 @@ h1.hero-title {
             <div class="metric-label">B.Tech CGPA</div>
           </div>
           <div class="metric-item">
-            <div class="metric-number" data-target="3" data-suffix="">0</div>
-            <div class="metric-label">Internships</div>
+            <div class="metric-number" data-target="6" data-suffix="+">0</div>
+            <div class="metric-label">Projects Completed</div>
           </div>
           <div class="metric-item">
             <div class="metric-number" data-target="91.17" data-suffix="%">0</div>
@@ -1965,7 +1965,6 @@ h1.hero-title {
       <!-- Projects Rail -->
       <div class="projects-container">
         <div class="projects-rail" id="projectRail">
-
           <!-- Project 01: OTP Memory Controller -->
           <article class="spotlight-card project-card">
             <div>
@@ -1975,7 +1974,7 @@ h1.hero-title {
               </div>
               <h3 class="project-title">Secure One-Time Programmable (OTP) Memory Controller</h3>
               <p class="project-desc">
-                Designed a 16 × 8-bit OTP memory controller in Verilog HDL with write-once programming, sticky-lock protection and reset-controlled access to prevent unintended rewrites. Developed a modular architecture with memory array, address decoder, controller FSM, and access-control unit. Verified with an exhaustive SystemVerilog assertion-based testbench.
+                Designed a 16 × 8-bit OTP memory controller in Verilog HDL with write-once programming, sticky-lock protection and reset-controlled access to prevent unintended rewrites. Built modular RTL blocks (memory array, address decoder, controller FSM, access control) and verified with SystemVerilog SVA assertions in ModelSim and Vivado.
               </p>
               <div class="project-specs">
                 <span class="spec-pill">Verilog / SystemVerilog</span>
@@ -2059,54 +2058,54 @@ h1.hero-title {
             </div>
           </article>
 
-          <!-- Project 04: NavIC LNA Design in 180nm CMOS -->
+          <!-- Project 04: Automatic Fan Speed Controller (Embedded) -->
           <article class="spotlight-card project-card">
             <div>
               <div class="project-card-top">
                 <span class="project-num">04</span>
-                <span class="project-tag-badge">RF Analog IC • Cadence</span>
+                <span class="project-tag-badge">Embedded • Arduino & AC Motor</span>
               </div>
-              <h3 class="project-title">3.4–3.6 GHz Low Noise Amplifier (LNA) for NavIC in 180nm CMOS</h3>
+              <h3 class="project-title">Automatic Fan Speed Level Controlling Using Temperature Sensor</h3>
               <p class="project-desc">
-                Designed a 3.4–3.6 GHz LNA for the Indian NavIC satellite receiver in 180 nm CMOS using a cascode topology with inductive source degeneration. Target specs achieved: Noise Figure (NF) &lt; 2 dB and Gain &gt; 15 dB with S11 &lt; -10 dB across the target band via SpectreRF S-parameter simulations.
+                Designed an automatic AC fan speed regulation system using an Arduino Uno R3, DHT11 temperature sensor, and a 4-channel relay module. Implemented capacitor-based speed switching (1µF, 2.2µF, 3.3µF, 4.3µF) to alter auxiliary winding phase shifts for stepped motor speed control, with live OLED telemetry and electrical isolation.
               </p>
               <div class="project-specs">
-                <span class="spec-pill">Cadence Virtuoso</span>
-                <span class="spec-pill">SpectreRF</span>
-                <span class="spec-pill">180 nm CMOS</span>
-                <span class="spec-pill">NF &lt; 2 dB</span>
-                <span class="spec-pill">Gain &gt; 15 dB</span>
+                <span class="spec-pill">Arduino Uno</span>
+                <span class="spec-pill">DHT11 Sensor</span>
+                <span class="spec-pill">4-Channel Relays</span>
+                <span class="spec-pill">Capacitor Phase-Shift</span>
+                <span class="spec-pill">I2C OLED</span>
               </div>
             </div>
             <div class="project-actions">
-              <a href="#" class="case-study-btn" data-case-study="lna">
+              <a href="#" class="case-study-btn" data-case-study="fan">
                 Case Study Specs →
               </a>
               <div class="project-links">
-                <a href="mailto:arunprasathrajesh3@gmail.com" class="icon-btn" title="Inquire about RF circuit">
+                <a href="mailto:arunprasathrajesh3@gmail.com" class="icon-btn" title="Inquire about Embedded project">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                 </a>
               </div>
             </div>
           </article>
 
-          <!-- Project 05: Multilayer PCB & AOI Testing -->
+          <!-- Project 05: ESP32 4-Layer PCB Design -->
           <article class="spotlight-card project-card">
             <div>
               <div class="project-card-top">
                 <span class="project-num">05</span>
-                <span class="project-tag-badge">Hardware & Testing</span>
+                <span class="project-tag-badge">Hardware • KiCad 10 • 4-Layer PCB</span>
               </div>
-              <h3 class="project-title">Multilayer PCB Workflow & Automated Optical Inspection</h3>
+              <h3 class="project-title">ESP32 4-Layer Sensor Board PCB Design & Layout</h3>
               <p class="project-desc">
-                Engaged in industrial PCB design and verification at Ascent Circuits Pvt. Ltd. Reviewed schematics, performed Gerber data validation and DFM audits for commercial multilayer boards. Assisted in circuit debugging with oscilloscopes and multimeters and observed automated SMT/AOI workflows.
+                Engineered a compact 4-layer embedded sensor board in KiCad 10 around the ESP32 microcontroller. Completed full component footprint placement, 4-layer trace routing, power and ground plane partitioning, USB-C LiPo power-path management, sensor integration (BME280, TEMT6000, MAX4466), and verified with strict DRC/ERC checks.
               </p>
               <div class="project-specs">
-                <span class="spec-pill">Multilayer PCB</span>
-                <span class="spec-pill">Gerber Signoff</span>
-                <span class="spec-pill">DFM Checks</span>
-                <span class="spec-pill">Oscilloscope Testing</span>
-                <span class="spec-pill">AOI Inspection</span>
+                <span class="spec-pill">KiCad 10</span>
+                <span class="spec-pill">4-Layer Routing</span>
+                <span class="spec-pill">Footprint Placement</span>
+                <span class="spec-pill">DRC Checks</span>
+                <span class="spec-pill">ESP32 & Sensors</span>
               </div>
             </div>
             <div class="project-actions">
@@ -2114,7 +2113,38 @@ h1.hero-title {
                 Case Study Specs →
               </a>
               <div class="project-links">
-                <a href="mailto:arunprasathrajesh3@gmail.com" class="icon-btn" title="Inquire about PCB work">
+                <a href="mailto:arunprasathrajesh3@gmail.com" class="icon-btn" title="Inquire about PCB design">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 06: CAN Controller Implementation on FPGA -->
+          <article class="spotlight-card project-card">
+            <div>
+              <div class="project-card-top">
+                <span class="project-num">06</span>
+                <span class="project-tag-badge">Verilog HDL • FPGA • CAN Bus</span>
+              </div>
+              <h3 class="project-title">CAN Controller Implementation on FPGA</h3>
+              <p class="project-desc">
+                Developed and implemented a CAN controller on an FPGA using Verilog HDL for real-time data communication. Implemented CAN transmission and reception logic, interfaced with a CAN transceiver, and verified interoperability through hardware testing with an STM32 microcontroller.
+              </p>
+              <div class="project-specs">
+                <span class="spec-pill">Verilog HDL</span>
+                <span class="spec-pill">FPGA</span>
+                <span class="spec-pill">CAN Bus</span>
+                <span class="spec-pill">STM32 Interface</span>
+                <span class="spec-pill">Real-Time Testing</span>
+              </div>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="case-study-btn" data-case-study="can">
+                Case Study Specs →
+              </a>
+              <div class="project-links">
+                <a href="mailto:arunprasathrajesh3@gmail.com" class="icon-btn" title="Inquire about CAN Controller">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                 </a>
               </div>
@@ -2662,29 +2692,41 @@ const projectData = {
     ],
     details: "Verified with an automated self-checking testbench in ModelSim covering all arithmetic edge cases and signed overflow scenarios. Implemented and synthesized on an FPGA board using Xilinx Vivado, evaluating LUT utilization, slice register allocation, and critical path timing margins."
   },
-  "lna": {
-    title: "3.4–3.6 GHz Low Noise Amplifier (LNA) for NavIC in 180nm CMOS",
-    tag: "RF & Analog IC • Cadence Virtuoso",
-    overview: "Designed an RF cascode Low Noise Amplifier targeting the Indian Regional Navigation Satellite System (NavIC) S-band receiver in standard 180 nm CMOS.",
+  "fan": {
+    title: "Automatic Fan Speed Level Controlling Using Temperature Sensor",
+    tag: "Embedded Systems • Arduino & AC Motor",
+    overview: "Designed and implemented an automatic temperature-based AC fan speed regulation system using an Arduino Uno R3, DHT11 digital sensor, 4-channel relay module, and a stepped motor capacitor network.",
     specs: [
-      { label: "Frequency Band", val: "3.4 GHz — 3.6 GHz (NavIC S-Band)" },
-      { label: "Noise Figure", val: "NF < 2.0 dB across band" },
-      { label: "Power Gain", val: "S21 Gain > 15 dB" },
-      { label: "Input Return Loss", val: "S11 < -10 dB via Inductive Degeneration" }
+      { label: "Microcontroller", val: "Arduino Uno R3 (ATmega328P)" },
+      { label: "Sensor & Display", val: "DHT11 Digital Sensor & 0.96-inch I2C OLED (SSD1306)" },
+      { label: "Speed Switching", val: "4-Channel Optocoupler Relays with 1µF, 2.2µF, 3.3µF, 4.3µF Capacitors" },
+      { label: "Motor & Safety", val: "Single-Phase 230V AC Induction Motor with Full Electrical Isolation" }
     ],
-    details: "Employed a cascode topology to boost reverse isolation and eliminate Miller effect capacitance. Implemented inductive source degeneration to achieve real 50-ohm input impedance matching without adding thermal noise from physical resistors. Validated complete S-parameters (S11, S21, S12, S22) and stability factors via Cadence SpectreRF simulation."
+    details: "Designed and wired the complete circuit prototype, selected safety-rated AC capacitors, and implemented Arduino threshold logic. As temperature rises across calibrated bands (<36.5°C to >38.5°C), individual relays dynamically switch capacitors into the auxiliary winding, creating phase shifts to vary motor torque and speed reliably without high-frequency switching EMI."
   },
   "pcb": {
-    title: "Multilayer PCB Design & AOI Functional Testing",
-    tag: "PCB Hardware • DFM Verification",
-    overview: "Industrial internship project at Ascent Circuits Pvt. Ltd., engaging in high-density multilayer PCB engineering, Gerber signoff, and automated optical inspection.",
+    title: "ESP32 4-Layer Sensor Board PCB Design & Layout",
+    tag: "Hardware EDA • KiCad 10 • Multilayer PCB",
+    overview: "Engineered a high-density 4-layer embedded sensor board schematic and PCB layout in KiCad around the ESP32 microcontroller, integrating battery management, high-speed interfaces, and onboard environmental sensing.",
     specs: [
-      { label: "Company", val: "Ascent Circuits Pvt. Ltd. (Hosur)" },
-      { label: "Tooling", val: "Gerber CAM Verification & DFM Auditing" },
-      { label: "Testing", val: "Digital Oscilloscope, DMM, AOI Systems" },
-      { label: "Assembly", val: "Surface Mount Technology (SMT) Flow" }
+      { label: "Layer Stackup", val: "4-Layer PCB (Signal / GND Plane / Power Plane / Signal)" },
+      { label: "Power Management", val: "USB-C Power-Path, LiPo Battery Charger (MCP73871), LM1117 3.3V LDO" },
+      { label: "Sensors Onboard", val: "BME280 (Temp/Pressure/Humidity), TEMT6000 Light, MAX4466 Mic" },
+      { label: "Verification", val: "Complete Footprint Placement, 4-Layer Routing & DRC Checks" }
     ],
-    details: "Conducted schematic audits, solder mask clearance checks, and Design for Manufacturing (DFM) verification for commercial multilayer boards. Performed electrical continuity testing, power rail validation, and fault diagnosis on assembled PCBA modules."
+    details: "Executed complete component footprint placement, clean 4-layer trace routing, power and ground plane partitioning, and auto-programming transistor circuitry (BC817). Ran comprehensive Design Rule Checks (DRC) and Electrical Rule Checks (ERC) to ensure zero manufacturing violations."
+  },
+  "can": {
+    title: "CAN Controller Implementation on FPGA",
+    tag: "Automotive Protocol • Verilog HDL • FPGA",
+    overview: "Developed and implemented a Controller Area Network (CAN) protocol controller on an FPGA using Verilog HDL for real-time deterministic data communication.",
+    specs: [
+      { label: "Architecture", val: "CAN 2.0A / 2.0B Protocol Controller" },
+      { label: "HDL Language", val: "Verilog HDL" },
+      { label: "Interfacing", val: "CAN Transceiver & STM32 Microcontroller" },
+      { label: "Validation", val: "Hardware Testing & Oscilloscope Bus Verification" }
+    ],
+    details: "Implemented CAN transmission and reception state machines, bit timing logic (BTL), bit stuffing, CRC-15 generation, and message filtering. Interfaced with an external physical-layer CAN transceiver and verified cross-platform interoperability through hardware testing with an STM32 microcontroller."
   }
 };
 
